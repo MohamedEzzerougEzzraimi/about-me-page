@@ -32,5 +32,30 @@ body{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 .card-info h1{
-    
+    margin: 12px 0 8px;
+    color: #222;
+    font-size: 28px;
+    font-weight: 700;
+}
+.bio{
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.links a{
+    display: block;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 14px 0;
+    font-weight: 600;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+.links a:hover{
+    background-color: #007BFF;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
 }
