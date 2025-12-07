@@ -21,4 +21,16 @@ body{
     width: 100%;
     justify-content: center;
     text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+.avatar{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.card-info h1{
+    
 }
